@@ -1,10 +1,4 @@
-// 分糖果 https://leetcode-cn.com/problems/distribute-candies-to-people/
-/**
- * @param {number} candies
- * @param {number} num_people
- * @return {number[]}
- */
-
+// Link: https://leetcode-cn.com/problems/distribute-candies-to-people/
 
 export const distributeCandies = function(candies: number, num_people: number) {
   let round = 0
