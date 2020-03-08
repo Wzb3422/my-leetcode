@@ -27,4 +27,3 @@ export const findContinuousSequence = function(target: number) {
   return result
 };
 
-console.log(findContinuousSequence(87760))
