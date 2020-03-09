@@ -7,7 +7,6 @@ export const distributeCandies = function(candies: number, num_people: number) {
   console.log(`开始分糖啦，一共${candiesRemain}颗糖`)
   for (let i = 0; i < candies; i++) {
     let index = i % num_people
-    let nthPeople = index + 1
     let distributeOnce = i + 1
     if (distributeOnce < candiesRemain) {
       candiesRemain -= distributeOnce
@@ -16,11 +15,8 @@ export const distributeCandies = function(candies: number, num_people: number) {
       candiesRemain = 0
     }
     result[index] += distributeOnce
-    console.log(result)
-    console.log(`给第${nthPeople}人 分${distributeOnce}颗🍬, 现在还剩${candiesRemain}颗🍬`)
     if (index === num_people - 1) {
-      round++
-      console.log(`分完一圈啦，现在分完了 ${round} 圈`)
+      round = round + 1
     }
     if (candiesRemain === 0) {
       return result
