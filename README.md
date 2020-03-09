@@ -12,3 +12,4 @@
 + 2020-03-06 [和为s的连续正数序列](./src/find-continuous-num-sequence.ts)
 + 2020-03-07 [回文数](./src/palindrome-number.ts)
 + 2020-03-08 [罗马数字转整数](./src/roman-to-integer.ts)
++ 2020-03-09 [删除排序数组中的重复项](./src/remove-duplicates-from-sorted-array.ts)
