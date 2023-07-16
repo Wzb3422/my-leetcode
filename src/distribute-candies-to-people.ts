@@ -4,7 +4,6 @@ export const distributeCandies = function(candies: number, num_people: number) {
   let round = 0
   let result: number[] = getZeroArr(num_people)
   let candiesRemain = candies
-  console.log(`开始分糖啦，一共${candiesRemain}颗糖`)
   for (let i = 0; i < candies; i++) {
     let index = i % num_people
     let distributeOnce = i + 1

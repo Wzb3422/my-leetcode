@@ -23,7 +23,6 @@ interface Imerge {
 
 const merge: Imerge = function(A, m, B, n) {
   const arr = A.concat(B)
-  console.log('arr', arr)
   arr.sort((a, b) => a - b)
   arr.splice(0, n)
   return arr
@@ -35,4 +34,3 @@ const m = 3
 const B = [2, 5, 6]
 const n = 3
 
-console.log(merge(A, m, B, n))

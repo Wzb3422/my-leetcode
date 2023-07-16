@@ -9,7 +9,6 @@ export const removeDuplicates = function(nums: number[]) {
     } else {
       i++
     }
-    console.log(nums)
   }
   return nums.length
 }
